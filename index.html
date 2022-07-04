@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sitio de testeo de caracteristicas inclusivas">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Productos en modo inclusivo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav id="nav-inclusivo">
+            <ul class="menu">
+                <li><button type="button" onclick="contraer()">-</button></li>
+                <li><button type="button" onclick="expandir()">+</button></li>
+                <li><button type="button" onclick="smaller()">smaller</button></li>
+                <li><button type="button" onclick="bigger()">bigger</button></li>
+                <li><button type="button" onclick="claro()">claro</button></li>
+                <li><button type="button" onclick="contraste()">oscuro</button></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Casa</a></li>
+                <li><a href="#">Ideas</a></li>
+                <li><a href="#">Promociones</a></li>
+                <li><a href="#">Novedades</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <section class="contenedor"> <!--primera seccion-->
+            <h1 class="texto">Productos</h1>
+
+            <ul class="productos">
+                <li>
+                    <article class="tarjeta product-item">
+                        <figure>
+                            <img class="img_prod" src="img/cafetera_1.jpg" onmouseover="this.src='img/cafetera_2.jpg';" onmouseout="this.src='img/cafetera_1.jpg';" alt="imagen de una tetera con forma de gatito pusheen (kawaii)" style="width:100%">
+                        </figure>
+                        <!-- <h3 class="texto">Tetera de gatito</h3> -->
+                        <p class="texto">Cafetera Italiana <br> 200ml</p>
+                        <h4>$16.990</h4>
+                        <button class="texto">Abregar al carro</button>
+                    </article>
+                </li>
+                            
+                <li>
+                    <article class="tarjeta product-item">
+                        <figure>
+                            <img class="img_prod" src="img/cafetera_dos_2.jpg" onmouseover="this.src='img/cafetera_dos_1.jpg';" onmouseout="this.src='img/cafetera_dos_2.jpg';" alt="imagen de una tetera con forma de gatito pusheen (kawaii)" style="width:100%">
+                        </figure>
+                        <!-- <h3 class="texto">Tetera de gatito</h3> -->
+                        <p class="texto">Cafetera italiana premium 350 ml</p>
+                        <h4>$11.990</h4>
+                        <button class="texto">Abregar al carro</button>
+                    </article>
+                </li>
+                <li>
+                    <article class="tarjeta product-item">
+                        <figure>
+                            <img class="img_prod" src="img/cafetera_tres_2.jpg" onmouseover="this.src='img/cafetera_tres_1.jpg';" onmouseout="this.src='img/cafetera_tres_2.jpg';" alt="imagen de una tetera con forma de gatito pusheen (kawaii)" style="width:100%">
+                        </figure>
+                        <!-- <h3 class="texto">Tetera de gatito</h3> -->
+                        <p class="texto">Cafetera espresso 1 taza 50 ml</p>
+                        <h4>$8.490</h4>
+                        <button class="texto">Abregar al carro</button>
+                    </article>
+                </li>
+                <li>
+                    <article class="tarjeta product-item">
+                        <figure>
+                            <img class="img_prod" src="img/cafetera_cuatro_2.jpg" onmouseover="this.src='img/cafetera_cuatro_1.jpg';" onmouseout="this.src='img/cafetera_cuatro_2.jpg';" alt="imagen de una tetera con forma de gatito pusheen (kawaii)" style="width:100%">
+                        </figure>
+                        <!-- <h3 class="texto">Tetera de gatito</h3> -->
+                        <p class="texto">Cafetera italiana aluminio 200 ml</p>
+                        <h4>$8.990</h4>
+                        <button class="texto">Abregar al carro</button>
+                    </article>
+                </li>
+                <li>
+                    <article class="tarjeta product-item">
+                        <figure>
+                            <img class="img_prod" src="img/cafetera_cinco_2.jpg" onmouseover="this.src='img/cafetera_cinco_1.jpg';" onmouseout="this.src='img/cafetera_cinco_2.jpg';" alt="imagen de una tetera con forma de gatito pusheen (kawaii)" style="width:100%">
+                        </figure>
+                        <!-- <h3 class="texto">Tetera de gatito</h3> -->
+                        <p class="texto">Cafetera italiana premium 200 ml</p>
+                        <h4>$9.990</h4>
+                        <button class="texto">Abregar al carro</button>
+                    </article>
+                </li>
+            </ul>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>...</p>
+    </footer>
+<!--*scripts-->
+    <script src="./app.js"></script>
+</body>
+</html>     
